@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Residencial da Paz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #3f9d3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #2d6a2d;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #3f9d3f;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .btn {
+      background-color: #3f9d3f;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #2d6a2d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Residencial da Paz</h1>
+    <p>Bem-vindo ao site oficial do nosso condomínio!</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#avisos">Avisos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre o Condomínio</h2>
+    <p>O Residencial da Paz é um lugar tranquilo, seguro e acolhedor, localizado em São Paulo. Aqui, prezamos pela boa convivência, respeito e organização.</p>
+  </section>
+
+  <section id="avisos">
+    <h2>Avisos Recentes</h2>
+    <ul>
+      <li>Reunião de moradores.</li>
+      <li>Manutenção na garagem.</li>
+    </ul>
+    <button class="btn" onclick="mostrarAlerta()">Ver Aviso Importante</button>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato com a administração: <a href="mailto:contato@residencialdapaz.com">contato@residencialdapaz.com</a></p>
+  </section>
+
+  <footer>
+    <p>Site criado por Rogers com carinho e dedicação! 🤝🌵</p>
+  </footer>
+
+  <script>
+    function mostrarAlerta() {
+      alert("🚨 Lembre-se: mantenha as áreas comuns limpas e respeite o horário de silêncio! Obrigado! 🕊️");
+    }
+  </script>
+</body>
+</html>
